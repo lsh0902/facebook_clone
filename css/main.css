@@ -11,7 +11,7 @@
   position: relative;
 }
 
-#wrapper .inner .left_box{
+.left_box{
   width: 180px;
   height: 500px;
   position:fixed;
@@ -71,7 +71,7 @@
   left:190px;
 }
 
-#wrapper .create_box{
+.create_box{
   background-color: #fff;
   margin-bottom: 10px;
   border: 1px solid #dddfe2;
@@ -172,14 +172,14 @@
   background: #9cb4d8;
 }
 
-#wrapper .contents{
+.contents{
   background-color: #fff;
   margin-bottom: 10px;
   border: 1px solid #dddfe2;
   border-radius: 3px;
-  color: var(--fds-gray-70);
+  /* color: var(--fds-gray-70);
   font-size: 13px;
-  font-weight: bold;
+  font-weight: bold; */
 }
 
 .contents header{
@@ -364,7 +364,7 @@
   cursor: pointer;
 }
 
-#wrapper .right_box{
+.right_box{
   width: 308px;
   background: #fff;
   position: fixed;
